@@ -153,3 +153,8 @@ pip-selfcheck.json
 # Misc
 .DS_Store
 .vscode
+models/*
+!models/README.md
+static/*
+!static/sample_input.png
+!static/sample_output.png
