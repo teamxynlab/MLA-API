@@ -7,7 +7,7 @@ import cv2
 from mla.utils import get_random_filename
 import matplotlib
 
-matplotlib.use('agg')
+matplotlib.use("agg")
 
 
 def arrow_face_text(image, filename, cfg, model):
@@ -25,8 +25,8 @@ def arrow_face_text(image, filename, cfg, model):
     frame_corners = []
     count = 0
 
-    for id in list(r['class_ids']):
-        box = list(r['rois'])[count]
+    for id in list(r["class_ids"]):
+        box = list(r["rois"])[count]
         count += 1
 
         y1, x1, y2, x2 = box
