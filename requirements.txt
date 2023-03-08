@@ -5,3 +5,19 @@ itsdangerous==1.1.0
 Jinja2==2.11.3
 MarkupSafe==1.1.1
 Werkzeug==1.0.1
+flask-cors
+python-dotenv
+numpy
+scipy
+Pillow
+cython
+matplotlib
+scikit-image
+keras>=2.0.8
+opencv-python
+h5py
+imgaug
+
+# tensorflow
+tensorflow-macos
+tensorflow-metal
